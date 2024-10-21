@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="es">
+
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Colecciones</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,900;1,500&family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+
+
+
+<body class="bg-secondary bg-opacity-25">
+
+
+
+<!--NAV-->
+<div class="row mt-5 mx-auto px-0 container">   
+  <nav class="navbar navbar-expand-lg bg-white py-0">
+        <div class="container px-0 py-0">
+          <a class="navbar-brand py-0 mb-0" href="#">
+            <img src="Img/logo_macba.svg" alt="MACBA" height="70">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto me-3">
+              <li class="nav-item">
+                <a class="nav-link px-5 fw-bold" href="index.html">Inicio </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-5 fw-bold" href="historia.html">Historia</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link px-5 fw-bold" href="colecciones.html">Colecciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-5 fw-bold" href="merch.html">Merch</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link px-5 fw-bold" href="contact.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+  </nav>
+  </div> 
+<!--FIN NAV-->
+
+
+<section class="container bg-black">
+    <div class="row">
+      <div class="container bg-black col-md-10 mx-auto mt-n5 text-center p-5">
+          <h1 class="mt-4 fw-bold text-white">Arte y artistas</h1>
+          <p class="fw-bold text-white px-2">La Colección MACBA se centra en el arte del periodo que va desde la segunda mitad del siglo XX hasta nuestros días. Sin embargo, comienza con obras seleccionadas de las vanguardias de los años veinte para establecer su núcleo central en torno a 1968, fecha que transformó radicalmente el paradigma del arte contemporáneo. La Colección construye un modelo que permite entender el mundo actual y configurar una memoria crítica del arte de los últimos noventa años sin perder de vista la realidad cultural y política concreta de Barcelona.
+          </p>
+      </div>
+    </div>
+</section>
+
+<!--CARDS CON ARTISTAS-->
+<div class="container bg-white col-md-10 mx-auto mt-n5 align-center p-5">
+  
+  <div class="card mb-3">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="Img/aballi.jpg" class="img-fluid rounded-start" alt="Ignasi Aballí posando delante de su obra.">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h2 class="card-title">Sin principio. Sin final</h2>
+          <p class="card-text"><b>Ignasi Aballí Sanmartí</b> es un artista contemporáneo que desarrolla su obra a través de técnicas y materiales diversos. Estudió Bellas Artes en la Universidad de Barcelona.</p>
+          <button type="button" id="botonescards" class="fw-bold mt-2 pt5" data-bs-toggle="modal" data-bs-target="#modalaballi" id="button1">Conoce más</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card mb-3">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="Img/antoni.jpg" class="img-fluid rounded-start" alt="Antoni Llena señalando sus cuadros.">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h2 class="card-title">Miedo creativo</h2>
+          <p class="card-text"><b>Antoni Llena i Font</b> es un pintor, escultor y escritor español. Ha publicado diversos libros y colabora habitualmente con la prensa escrita, especialmente con el diario Ara.</p>
+          <button type="button" id="botonescards" class="fw-bold mt-2 pt5" data-bs-toggle="modal" data-bs-target="#modalantoni" id="button1">Conoce más</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card mb-3">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="Img/basquiat.jpg" class="img-fluid rounded-start" alt="Jean-Michel Basquiat posando junto a Andy Warhol delante de su obra.">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h2 class="card-title">La pintura furiosa</h2>
+          <p class="card-text"><b>Jean-Michel Basquiat</b> también conocido como SAMO, fue un artista estadounidense de ascendencia haitiana y puertorriqueña.​</p>
+          <button type="button" id="botonescards" class="fw-bold mt-2 pt5" data-bs-toggle="modal" data-bs-target="#modalbasquiat" id="button1">Conoce más</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!--  FIN DE LAS CARDS -->
+
+
+
+<!--MODALS-->
+<section>
+<div class="modal" tabindex="-1" role="dialog" id="modalaballi">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title">Sin principio. Sin final</h2>
+      </div>
+      <div class="modal-body">
+        <img src="Img/aballi2.jpg" class="img-fluid" alt="Ignasi Aballí posando delante de su obra.">
+        <p>Su obra es una reflexión sobre los límites de lo artístico y su relación con la vida cotidiana, de donde el artista extrae la mayoría de sus materiales. El devenir del tiempo se recoge en las huellas que dejan la luz, el polvo, o incluso los restos de ropa que quedan en el filtro de la secadora, y el filtraje de la memoria se aborda sobre todo desde la información de los periódicos.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" id="botonescards" class="fw-bold mt-2 pt5" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" id="modalantoni">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title">Miedo creativo</h2>
+      </div>
+      <div class="modal-body">
+        <img src="Img/antoni2.jpg" class="img-fluid" alt="Ignasi Aballí posando delante de su obra.">
+        <p>Ya en su juventud entró en contacto con la subcultura de la gran ciudad, relacionada con el uso de drogas y las bandas callejeras. En 1977, junto con Al Díaz, se introdujo en el mundo del grafiti, pintando en los vagones del metro y por las zonas del SoHo, barrio neoyorquino donde proliferan las galerías de arte.​</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" id="botonescards"  class="fw-bold mt-2 pt5" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" id="modalbasquiat">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title">La pintura furiosa</h2>
+      </div>
+      <div class="modal-body">
+        <img src="Img/basquiat2.jpg" class="img-fluid" alt="Jean-Michel Basquiat posando junto a Andy Warhol delante de su obra.">
+        <p>Su primera exposición individual fue aquel mismo año en la Petite Galerie de Lérida, donde expuso, dibujadas sobre la pared de la sala, las sombras de sus esculturas de papel. Este fue también un año convulso en su trayectoria. Después de realizar una gran cantidad de obras –muchas de las cuales han desaparecido– decidió renunciar, por radicalidad poética, a la práctica artística. La volvería a ejercer diez años más tarde, en 1979, ya de manera ininterrumpida.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" id="botonescards"  class="fw-bold mt-2 pt5" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!--FIN MODALS-->
+
+
+<!--FORMULARIO CONTENIDO EXCLUSIVO-->
+
+<section id="cta">
+  <div class="row cta container bg-black col-md-10 text-white mx-auto p-5">
+      <div class="col-md-6 p-3">
+        <h2 class="text-white fw-bold">Contenido exclusivoen tu buzón</h2>
+        <p class="me-5 pe-5">Suscríbete a nuestra versión editorial mensual con el resumen de todo lo vivido en MACBA con nuestros artistas.</p>
+      </div>
+      <div class="col-lg-6">
+        <form>
+          <div class="my-3 px-0">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="nombre" class="form-control py-0" id="nombre">
+          </div>
+          <div class="mb-3 px-0">
+            <label for="email" class="form-label">E-mail</label>
+            <input type="email" class="form-control py-0" id="exampleInputEmail1">
+          </div>
+          <div class="mb-3 px-0">
+            <label for="telefono" class="form-label">Telefono</label>
+            <input type="telefono" class="form-control py-0" id="exampleInputEmail1">
+          </div>
+            <button id="botones" type="button" class="fw-bold mt-2">Saber más</button>
+        </form>
+      </div>
+  </div>
+</section>
+
+
+<!--FOOTER-->
+<footer id="Copy" class="bg-white container mb-5">
+  <section>
+    <div class="text-center pt-4 pb-2">
+      <p>© 2021 Copyright:</p>
+      <a class="text-reset fw-bold">© MACBA Museu d'Art Contemporani de Barcelona, 2022. Algunos derechos reservados.</a>
+    </div>
+    <div class="row col-lg-11 container pb-3 mx-auto text-center">
+        <dl class="py-1 my-0 text-decoration-underline mx-auto px-0 col-lg-2">Sobre este sitio web</dl>
+        <dl class="py-1 my-0 text-decoration-underline mx-auto px-0 col-lg-2">Condiciones de uso</dl>
+        <dl class="py-1 my-0 text-decoration-underline mx-auto px-0 col-lg-2">Derechos de reproducción</dl>
+        <dl class="py-1 my-0 text-decoration-underline mx-auto px-0 col-lg-2">Política de privacidad</dl>
+        <dl class="py-1 my-0 text-decoration-underline mx-auto px-0 col-lg-2">Contacto</dl>
+    </div>
+  </section>
+  </footer>
+  <!--FIN FOOTER-->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+<script>
+  $(document).ready(function(){
+
+
+document.getElementById('modalaballi').addEventListener('shown.bs.modal', () => {
+  document.getElementById('button1').focus()
+})
+
+document.getElementById('modalantoni').addEventListener('shown.bs.modal', () => {
+  document.getElementById('button2').focus()
+})
+
+
+document.getElementById('modalbasquiat').addEventListener('shown.bs.modal', () => {
+  document.getElementById('button3').focus()
+})
+
+  });
+
+
+  </script>
+</body>
+
+</html>
